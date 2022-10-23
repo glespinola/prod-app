@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* Nav */
+.nav{
+    background-color: #dc143c;
+    height: 11vh;
+    border-radius: .1rem;
+}
+
+.nav img{
+    height: 100%;
+    min-width: 30vw;
+}
+.nav__container{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    width: 100vw;
+    margin: .1rem;
+    overflow: hidden;
+}
+
+.btn{
+    opacity: 0;
+}
+
+.btnActive{
+    opacity: 1;
+}
+/* Fin Nav */

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produccion Informatica</title>
+    <link rel="icon" href="./img/newsan_icon512.png">
+    <link rel="manifest" href="../server/manifest.json">
+    <script src="https://kit.fontawesome.com/db9f70d841.js" crossorigin="anonymous"></script>
+    <link rel="preload" href="./style/main.css" as="style">
+    <link rel="preload" href="./style/normalize.css" as="style">
+    <link rel="preconnect" href="https://bootswatch.com/5/materia/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://bootswatch.com/5/materia/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/normalize.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="nav__container">
+                <img src="./img/newsan_white_logo.png" alt="Logo Newsan">
+                <button class="btn btn-primary">Instalar</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="machine__container" class="card m-2 p-6 d-flex flex-column-reverse overflow-auto text-dark"></div>
+    </main>
+    <script src="./js/firebase.js" type="module"></script>
+    <script src="./../index.js" type="module"></script>
+</body>
+</html>
